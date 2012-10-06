@@ -1,3 +1,6 @@
 The layout directory holds the design mockups for the website. These are merely temporary
 ideas on what the website might look like. These are just to get us started with coding
-the website.
+the website. 
+
+We will be adding javascript to the big image on the homepage, so it will
+not be just a static picture as it is now.
