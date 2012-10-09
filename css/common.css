@@ -1,0 +1,48 @@
+/* Generic */
+
+html {
+	font-family: sans-serif;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #cadced url("../img/bg.png") no-repeat center center fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #003366
+}
+
+a {
+	color: #444444;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Header */
+
+#header {
+	background: url("../img/header-bg.png") repeat-x;
+}
+
+#header-title a {
+	text-indent: -10000px;
+	background: url("../img/logo.png") no-repeat;
+}
+
+#header a {
+	color: white;
+}
+
+/* Useful functions */
+
+.clear {
+	clear: both;
+}
