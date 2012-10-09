@@ -1,0 +1,64 @@
+/* Generic */
+
+html {
+	min-width: 600px;
+}
+
+/* Header */
+
+#header {
+	padding: 0 5%;
+}
+
+#header-title {
+	margin: 0;
+	float: left;
+}
+
+#header-title a {
+	display: block;
+	width: 123px;
+	height: 42px;
+	background-position: center;
+}
+
+#header-nav {
+	float: right;
+}
+
+#header-nav ul {
+	margin: 0;
+	padding: 0.65em 0;
+}
+
+#header-nav li {
+	float: left;
+	list-style: none;
+	margin-left: 1em;
+}
+
+/* Content */
+#padding-content {
+	margin: 2em 5%;
+}
+
+/* Footer */
+
+#footer-nav {
+	border-top: 1px solid #AEAEAE;
+	width: 50%;
+	min-width: 400px;
+	margin: auto;
+}
+
+#footer-nav ul {
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+	padding: 1em 0;
+}
+
+#footer-nav ul li {
+	display: inline;
+	padding: 0 1em;
+}
