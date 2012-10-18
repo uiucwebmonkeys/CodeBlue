@@ -39,7 +39,41 @@ html {
 
 /* Content */
 #padding-content {
-	margin: 2em 5%;
+	width: 1000px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.speechCycleImage {
+}
+
+.form {
+	width: 305px;
+	margin: 0px auto;
+}
+
+.form input {
+	display: block;
+	background: url('../img/inputBg.png');
+	width: 294px;
+	height: 54px;
+	border: none;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	font-family: arial;
+	color: #999;
+	font-size: 20px;
+}
+
+.form button {
+	border: 0px;
+	width: 303px;
+	height: 54px;
+	font-size: 16px;
+	folor: #999;
+	background: url('../img/submitButton.png');
 }
 
 /* Footer */
