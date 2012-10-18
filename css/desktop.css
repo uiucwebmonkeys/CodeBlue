@@ -76,8 +76,20 @@ html {
 	background: url('../img/submitButton.png');
 }
 
-/* Footer */
+/* Content 2 Column */
+.content-2-column-left
+{
+	float: left;
+	width: 250px;
+	margin-right: 10px;
+}
 
+.content-2-column-right
+{
+	margin-left: 260px;
+}
+
+/* Footer */
 #footer-nav {
 	border-top: 1px solid #AEAEAE;
 	width: 50%;
