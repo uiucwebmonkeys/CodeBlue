@@ -134,6 +134,67 @@ html {
 	margin-left: 260px;
 }
 
+#text_editor {
+	float: left;
+}
+
+#text_editor textarea {
+	width: 600px;
+	height: 600px;
+	border: solid 5px #d8dde1;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	font-size: 14px;
+}
+
+#instant_chat {
+	height: 320px;
+	width: 370px;
+	float: right;
+	border: solid 5px #d8dde1;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	position: relative;
+	background: #fff;
+}
+
+#instant_chat form {
+	position: absolute;
+	bottom: 0px;
+}
+
+#friends_online_box {
+	width: 370px;
+	height: 320px;
+	margin-top: 20px;
+	background: #fff;
+	border: solid 5px #d8dde1;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	float: right;
+}
+
+#friends_online_box h3 {
+	width: 250px;
+	margin: 0px auto;
+	margin-top: 10px;
+	text-align: center;
+	background: #006699;
+	border: solid 4px #0099cc;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	color: #fff;
+	padding: 10px;
+}
+
 /* Footer */
 #footer-nav {
 	border-top: 1px solid #AEAEAE;
