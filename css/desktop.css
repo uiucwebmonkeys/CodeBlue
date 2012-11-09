@@ -139,7 +139,7 @@ html {
 }
 
 #text_editor textarea {
-	width: 600px;
+	width: 500px;
 	height: 600px;
 	border: solid 5px #d8dde1;
 	border-radius: 5px;
