@@ -1,0 +1,216 @@
+/* Generic */
+
+html {
+	min-width: 600px;
+}
+
+/* Header */
+
+#header {
+	padding: 0 10%;
+}
+
+#header-title {
+	margin: 0;
+	float: left;
+}
+
+#header-title a {
+	display: block;
+	width: 123px;
+	height: 42px;
+	background-position: center;
+}
+
+#header-nav {
+	float: right;
+}
+
+#header-nav ul {
+	margin: 0;
+	padding: 0.65em 0;
+}
+
+#header-nav li {
+	float: left;
+	list-style: none;
+	margin-left: 1em;
+}
+
+/* Content */
+#padding-content {
+	padding: 20px 10%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+#leftNav ul {
+	list-style: none;
+	float: left;
+	border-left: solid 1px #ccc;
+	border-top: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+}
+
+#leftNav li {
+	width: 200px;
+	padding: 10px;
+	border-bottom: solid 1px #ccc;
+	background: #fafafa;
+}
+
+#leftNav ul a li:hover {
+	background-color: #f5f5f5;	
+}
+
+#leftNav a:hover {
+	text-decoration: none;
+}
+
+#main_content {
+	width: 700px;
+	padding: 0px 20px;
+	padding-bottom: 20px;
+	background: #fafafa;
+	float: right;
+	margin-bottom: 40px;
+	border: solid 1px #ccc;
+}
+
+#main_content h3 {
+	margin-top: 10px;
+}
+
+.teamList {
+	width: 100%;
+	overflow: hidden;
+}
+
+.teamList li {
+	width: 140px;
+	float: left;
+}
+
+.speechCycleImage {
+	margin: 0px 20%; 
+}
+
+.form {
+	width: 305px;
+	margin: 0px auto;
+}
+
+.form input {
+	display: block;
+	background: url('../img/inputBg.png');
+	width: 294px;
+	height: 54px;
+	border: none;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	font-family: arial;
+	color: #999;
+	font-size: 20px;
+}
+
+.form button {
+	border: 0px;
+	width: 303px;
+	height: 54px;
+	font-size: 16px;
+	background: url('../img/submitButton.png');
+}
+
+/* Content 2 Column */
+.content-2-column-left
+{
+	float: left;
+	width: 250px;
+	margin-right: 10px;
+}
+
+.content-2-column-right
+{
+	margin-left: 260px;
+}
+
+#text_editor {
+	float: left;
+}
+
+#text_editor textarea {
+	width: 500px;
+	height: 600px;
+	border: solid 5px #d8dde1;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	font-size: 14px;
+}
+
+#instant_chat {
+	height: 320px;
+	width: 370px;
+	float: right;
+	border: solid 5px #d8dde1;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	position: relative;
+	background: #fff;
+}
+
+#instant_chat form {
+	position: absolute;
+	bottom: 0px;
+}
+
+#friends_online_box {
+	width: 370px;
+	height: 320px;
+	margin-top: 20px;
+	background: #fff;
+	border: solid 5px #d8dde1;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	float: right;
+}
+
+#friends_online_box h3 {
+	width: 250px;
+	margin: 0px auto;
+	margin-top: 10px;
+	text-align: center;
+	background: #006699;
+	border: solid 4px #0099cc;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	color: #fff;
+	padding: 10px;
+}
+
+/* Footer */
+#footer-nav {
+	border-top: 1px solid #AEAEAE;
+	width: 50%;
+	min-width: 400px;
+	margin: auto;
+}
+
+#footer-nav ul {
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+	padding: 1em 0;
+}
+
+#footer-nav ul li {
+	display: inline;
+	padding: 0 1em;
+}
