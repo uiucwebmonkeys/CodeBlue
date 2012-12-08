@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Code Blue</title>
+	
+	<style>
+		@import url("./css/reset.css");
+		@import url("./css/common.css");
+		@import url("./css/desktop.css");
+	</style>
+
+
+	<!-- NEW -->
+	<script src="http://ajaxorg.github.com/ace/build/src/ace.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+        <script src="bcsocket.js"></script>             <!-- add transport -->
+        <script src="webclient/share.js"></script>      <!-- ShareJS -->
+        <script src="webclient/textarea.js"></script>   <!-- helper to attach textarea to ShareJS server -->
+        <script src="webclient/ace.js"></script>
+
+        <!-- /NEW -->
+</head>
+<body>
+	<header id="header">
+		<h1 id="header-title"><a href="index.html">Code Blue</a></h1>
+
+		<nav id="header-nav">
+			<ul>
+				<li><a href="about.html">What's Code Blue</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="signup.html">Sign Up</a></li>
+			</ul>
+		</nav>
+		
+		<div class="clear"></div>
+		
+	</header>
+	
+	<section id="content">
+		
+		<div id="padding-content"><!-- padding-content -->
+		 	<div id="text-editor">
+			 	<textarea id="sharetext"></textarea>
+			 </div>
+		     
+		     <div id="instant_chat">
+			<form>
+				<textarea rows="3" cols="49"></textarea>
+			</form>
+		     </div>
+		     
+		     <div id="friends_online_box">
+			<h3>Online Friends</h3>
+		     </div>
+		     
+		</div><!-- padding-content -->
+		
+	</section>
+	
+	<footer id="footer">
+		
+		<nav id="footer-nav">
+			<ul>
+				<li><a href="about.html">About</a></li>
+				<li><a href="">Legal</a></li>
+				<li><a href="">Github</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+	</footer>
+	
+	 <!-- NEW -->
+        <script>
+            // get the textarea element 
+            var elem = document.getElementById("sharetext");
+            // connect to the server
+            var connection = sharejs.open('test', 'text', function(error, doc) {
+                // this function is called once the connection is opened
+                if (error) {
+                    console.log("ERROR:", error);
+                } else {
+                    // attach the ShareJS document to the textarea
+                    doc.attach_textarea(elem);
+                }
+            });
+        </script>
+       
+        <!-- /NEW -->
+	
+</body>
+</html>
