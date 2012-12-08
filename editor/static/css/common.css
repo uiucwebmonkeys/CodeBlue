@@ -1,0 +1,165 @@
+/* Generic */
+
+html {
+	font-family: sans-serif;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #cadced url("../img/bg.png") no-repeat center center fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #003366
+}
+
+a {
+	color: #305171;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Table */
+table
+{
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border: 1px solid #CCCCCC;
+}
+
+table caption
+{
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	text-align: left;
+	padding: 0.5em 1em;
+	margin-bottom: 0.75em;
+	border-radius: 5px;
+	background: #FAFAFA;
+}
+
+table caption h1, table caption h2, table caption h3, table caption h4, table caption h5, table caption h6
+{
+	margin: 0;
+}
+
+table th, table td
+{
+	padding: 0.25em 0.5em; 
+}
+
+table thead th
+{
+	background: #FAFAFA url("../img/table_thead_bg.png") repeat-x;
+	padding: 0.1em 1em;
+	font-size: 80%;
+	text-transform: uppercase;
+	text-align: left;
+	color: #003366
+}
+
+table tbody tr
+{
+	border-top: 1px solid #DDDDDD;
+}
+
+table tbody tr th
+{
+	background: #FFFFFF;
+	text-align: left;
+}
+
+table tbody tr td
+{
+	background: #FFFFFF;
+}
+
+table th img
+{
+	width: 16px;
+	height: 16px;
+}
+
+/* Header */
+
+#header {
+	background: url("../img/header-bg.png") repeat-x;
+}
+
+#header-title a {
+	text-indent: -10000px;
+	background: url("../img/logo.png") no-repeat;
+}
+
+#header a {
+	color: white;
+}
+
+/* Menu Nav */
+nav.menu
+{
+	padding: 0.5em 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #CCCCCC;
+	background: #FAFAFA;
+}
+
+nav.menu img
+{
+	vertical-align: middle;
+}
+
+nav.menu p
+{
+	margin: 0 1em 0.5em;
+}
+
+nav.menu ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+nav.menu ul li
+{
+	padding: 0 0 0 10px;
+	list-style: none;
+}
+
+nav.menu ul li a
+{
+	display: block;
+	padding: 0.3em 0.3em 0.3em 10px;
+	margin-left: -10px;
+	background: #F4F4F4 url("../img/menu_item_bg.png") repeat-x;
+	border-top: 1px solid #ECECEC;
+}
+
+nav.menu ul li a:hover
+{
+	border-top-color: #DDDDDD;
+	border-bottom-color: #DDDDDD;
+	border-left: 3px solid red;
+	padding-left: 7px;
+	background: #F5F5F5 url("../img/menu_item_hover_bg.png");
+}
+
+nav.menu ul li:last-child a
+{
+	border-bottom: 1px solid #ECECEC
+}
+
+/* Useful styles */
+.clear {
+	clear: both;
+}
